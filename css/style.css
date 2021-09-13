@@ -41,15 +41,15 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
+  margin-bottom: 50px;
   margin-left: 13px;
 }
 #product-cart{
-  height:35em;
-  width:23em;
+  height:33em;
+  width:21em;
 }
 #fonts{
-  font-size:2rem;
+  font-size:1.5rem;
   text-align: center;
   font-weight: 600;
 }
@@ -68,13 +68,14 @@ body {
 }
 .single-product {
   padding: 10px;
-  transition: 0.6s;
+  transition: 0.3s;
   margin:40px 0px 0px 12px;
 }
 .single-product:hover {
   box-shadow: 1px 2px 2px 2px gray;
   border-radius: 10px;
-  background-color:rgb(243, 239, 239);
+  background-color:rgb(240, 238, 238);
+  transform: scale(1.1);
 }
 .product-image {
   width: 13em;
